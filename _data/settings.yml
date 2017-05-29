@@ -1,23 +1,28 @@
-title:  "Millennial"
-tagline: "a Jekyll theme"
+title:  "DataConscientious"
 description:
 author:
-  name: "Paul Le"
+  name: "pardhu448"
   twitter: paululele
 
 menu:
-- {name: 'Interesting Facts', file: 'facts.html'}
-- {name: 'Learning Resources', file: 'resources.html'}
-- {name: 'Sample Posts', file: 'sample-posts.html'}
-- {name: 'Documentation', file: 'documentation.html'}
 - {name: 'About', file: 'about.html'}
-- {name: 'Contact', file: 'contact.html'}
+- {name: 'Projects', file: 'about.html'}
+- {name: 'Resources', file: 'about.html'}
+- {name: 'Blog', file: 'about.html'}
+- {name: 'Contact', file: 'about.html'}
 
 social:
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'facebook', link: 'https://www.facebook.com/Le.Paul.94'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
-- {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'facebook', link: 'https://www.facebook.com'}
+- {icon: 'instagram', link: 'https://instagram.com'}
+- {icon: 'linkedin', link: 'https://linkedin.com'}
+
+servicesslide:
+- {title: 'Scientific Programming', file: 'scientific_prog.md', image: 'code_logo.png'}
+- {title: 'Statistical Learning', file : 'data_modelling.md', image: 'DC_logo_v7.png'}
+- {title: 'Digital Marketing Design', file: 'digital_marketing.md', image: 'digital_marketing1.png'} 
+- {title: 'ML System Design', file: 'machine_learning_system.md', image: 'mlsystem_logo.png'}
+
+jsarr:
+- {name : 'slideshow_script', file: 'slide_java.js'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

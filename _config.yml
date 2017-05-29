@@ -2,7 +2,7 @@
 
 disqus:              #"your-disqus"
 
-paginate:            5
+paginate:            1
 
 # Build settings
 markdown:            kramdown
