@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: postdefault
 ---
 
 <div class="page-content">
@@ -25,11 +25,11 @@ layout: default
     {% endif %}
   </span>
 
-  <!---{% if page.image.feature %}
-    <div class="featured-image">
-      <img src="{{ site.github.url }}/images/{{ page.image.feature }}">
-    </div>
-  {% endif %>}--->
+  {% if page.image.feature %}
+   <div class="featured-image">
+    <img src="{{ site.github.url }}/images/{{ page.image.feature }}">
+   </div>
+  {% endif %}
 
   {{ content }}
 

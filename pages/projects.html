@@ -1,0 +1,20 @@
+---
+layout: projectpages
+title: Projects
+---
+<p style = "text-align: center"; "font-family: helvetica"> Our projects range from open source projects, individual projects of our team members to freelancing projects for our clients. We have documentedthese project on Github and other knowledge sharing platforms.
+</p>
+
+<div >
+{% for post in site.categories.projects %}
+<a style = "text-decoration: none" href="{{site.github.url}}{{post.url}}">
+	<figure>
+	<img src = {{site.github.url}}/images/{{post.image.feature}} alt= "image">
+         <figcaption>
+		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+	</figcaption>  	 
+	</figure>
+   </a>
+
+{% endfor %} 
+</div>

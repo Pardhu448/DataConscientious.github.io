@@ -1,0 +1,21 @@
+---
+layout: projectpages
+title: Research
+---
+
+<p style = "text-align: center"; "font-family: helvetica"> These are our insights on socially impactful problems using open data and other sources of publicly available information. we tried to use our technical expertise in data science to highlight certain interesting trends in the current and past events in India. 
+</p>
+
+<div >
+{% for post in site.categories.projects %}
+<a style = "text-decoration: none" href="{{site.github.url}}{{post.url}}">
+	<figure>
+	<img src = {{site.github.url}}/images/{{post.image.feature}} alt= "image">
+         <figcaption>
+		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+	</figcaption>  	 
+	</figure>
+   </a>
+
+{% endfor %} 
+</div>

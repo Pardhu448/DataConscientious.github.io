@@ -1,0 +1,28 @@
+
+<h3 style = "text-align: center";>  </h3>
+<p style = "text-align: center"> We are a team of freelancers with professional experience in building statistical learning models, digital marketing design and machine learning system design. We are all from diverse backgrounds ranging from Quantitative analysts at investment bank to Marketing analysts at a startup. All of us have around five to ten years experience in these fields.
+</p>
+
+
+<div>
+{% for item in site.data.settings.homegriditems %}
+	<article class = "card-projects-view" >
+    	    <header class="card-header">
+  		   <p class= "card-suptitle">
+			{{item.mintitle}}
+		    </p>
+                    <h1 class="card-title">
+	               <a href = "{{site.github.url}}/pages/{{item.file}}" title="View more"> 
+{{item.title}} </a>
+	            </h1>
+             </header>
+	     <div class="card-body">
+	        <div class="card-prose">
+		  <p style = "text-align: left; line-height: 1rem"> 
+			{{item.prose}} 
+		  </p>
+	        </div>
+	     </div>
+	 </article>
+{% endfor %} 
+</div>

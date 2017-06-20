@@ -4,11 +4,13 @@
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin : auto;
+  padding : 10px 10px 10px 10px;
 }
 
 .mySlides {
     display: none;
+    margin-top : 25px;	
 }
 
 /* Next & previous buttons */
