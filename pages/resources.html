@@ -1,11 +1,20 @@
 ---
-layout: page
-title: Learning Resources
+layout: projectpages
+title: Resources
 ---
-{% for post in site.categories.resources %}
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image.feature %}style="background-image:url({{ site.github.url }}/images/{{ post.image.feature }})"{% endif %}>
-      <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
-{% endfor %}
+<p style = "text-align: center"; "font-family: helvetica"> We have documented all the interesting resources we have come across during our work and research. This is intended to be a repository of knowledge we have used in our work in one or the other way.
+</p>
+
+<div >
+{% for post in site.categories.projects %}
+<a style = "text-decoration: none" href="{{site.github.url}}{{post.url}}">
+	<figure>
+	<img src = {{site.github.url}}/images/{{post.image.feature}} alt= "image">
+         <figcaption>
+		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+	</figcaption>  	 
+	</figure>
+   </a>
+
+{% endfor %} 
+</div>

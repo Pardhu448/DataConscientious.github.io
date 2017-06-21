@@ -2,13 +2,13 @@ title:  "DataConscientious"
 description:
 author:
   name: "pardhu448"
-  twitter: paululele
+  twitter: 
 
 menu:
 - {name: 'About', file: 'about.html'}
 - {name: 'Projects', file: 'projects.html'}
-- {name: 'Resources', file: 'about.html'}
-- {name: 'Blog', file: 'about.html'}
+- {name: 'Resources', file: 'resources.html'}
+- {name: 'Blog', file: 'blog.html'}
 - {name: 'Contact', file: 'about.html'}
 
 social:
@@ -24,9 +24,9 @@ servicesslide:
 
 homegriditems:
 - {title: 'Projects', file: 'projects.html', mintitle: 'On Github', prose: 'Our open source and independent projects.'}
-- {title: 'Testimonials', file: 'projects.html', mintitle: 'From clients', prose: 'Comprehensive feedback on past projects.'}
+- {title: 'Testimonials', file: 'testimonials.html', mintitle: 'From clients', prose: 'Comprehensive feedback on past projects.'}
 - {title : 'Research', file: 'research.html', mintitle: 'Using open data', prose: 'Our insightful research on different social issues.'}
-- {title : 'Blog', file: 'projects.html', mintitle: 'Opinion', prose: 'Interesting stories from people we admire and follow.'}
+- {title : 'Blog', file: 'blog.html', mintitle: 'Opinion', prose: 'Interesting stories from people we admire and follow.'}
 
 jsarr:
 - {name : 'slideshow_script', file: 'slide_java.js'}

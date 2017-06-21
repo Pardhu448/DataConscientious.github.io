@@ -1,11 +1,20 @@
 ---
-layout: page
-title: Interesting Facts
+layout: projectpages
+title: Blog
 ---
-{% for post in site.categories.facts %}
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image.feature %}style="background-image:url({{ site.github.url }}/images/{{ post.image.feature }})"{% endif %}>
-      <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
-{% endfor %}
+<p style = "text-align: center"; "font-family: helvetica"> These are some of the interesting articles related to philosophy, math, society and literally anything under the sun that interests our team members. 
+</p>
+
+<div >
+{% for post in site.categories.projects %}
+<a style = "text-decoration: none" href="{{site.github.url}}{{post.url}}">
+	<figure>
+	<img src = {{site.github.url}}/images/{{post.image.feature}} alt= "image">
+         <figcaption>
+		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+	</figcaption>  	 
+	</figure>
+   </a>
+
+{% endfor %} 
+</div>
