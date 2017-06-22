@@ -17,10 +17,10 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com'}
 
 servicesslide:
-- {title: 'Scientific Programming', file: 'scientific_prog.md', image: 'code_logo.png'}
-- {title: 'Statistical Learning', file : 'data_modelling.md', image: 'DC_logo_v7.png'}
-- {title: 'Digital Marketing Design', file: 'digital_marketing.md', image: 'digital_marketing1.png'} 
-- {title: 'ML System Design', file: 'machine_learning_system.md', image: 'mlsystem_logo.png'}
+- {title: 'Scientific Programming', file: 'scientific_prog_new.html', image: 'code_logo.png'}
+- {title: 'Statistical Learning', file : 'data_modelling_new.html', image: 'DC_logo_v7.png'}
+- {title: 'Digital Marketing Design', file: 'digital_marketing_new.html', image: 'digital_marketing1.png'} 
+- {title: 'ML System Design', file: 'machine_learning_system_new.html', image: 'mlsystem_logo.png'}
 
 homegriditems:
 - {title: 'Projects', file: 'projects.html', mintitle: 'On Github', prose: 'Our open source and independent projects.'}
