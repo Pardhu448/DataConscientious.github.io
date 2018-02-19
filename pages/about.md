@@ -3,4 +3,8 @@ layout: page
 title: About
 ---
 
-This website was built using Millennial Jekyll theme on GitHub. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation.
+ We are a team of professionals taking up projects individually or in teams in the fields of Scientific Programming, Statistical learning, ML system design and Digital Marketing Design. 
+
+ We take part-time or freelancing projects in these fields and conduct training modules in related topics. 
+
+
