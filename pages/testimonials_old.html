@@ -1,0 +1,20 @@
+---
+layout: projectpages
+title: Testimonials
+---
+<p style = "text-align: center"; "font-family: helvetica"> We take special care to get comprehensive feedback from our clients. Our unique continuous feedback process starts documenting clients comments and feedback from the beginning of each project. The same is documented automatically here.
+</p>
+
+<div >
+{% for post in site.categories.projects %}
+<a style = "text-decoration: none" href="{{site.github.url}}{{post.url}}">
+	<figure>
+	<img src = {{site.github.url}}/images/{{post.image.feature}} alt= "image">
+         <figcaption>
+		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+	</figcaption>  	 
+	</figure>
+   </a>
+
+{% endfor %} 
+</div>

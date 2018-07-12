@@ -41,8 +41,8 @@ layout: postdefault
       <a href="https://plus.google.com/share?url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
     </div>
   </div>
-
-  <div class="related">
+<!--
+ <div class="related">
     <h2>You may also enjoy...</h2>
     {% assign listed_posts_urls = page.url | split: ' ' %}
     <ul class="related-posts">
@@ -59,7 +59,7 @@ layout: postdefault
                   <div class="related-title">
                     {{ mypost.title }}
                   </div>
-                  <!--<small>{{ mypost.date | date: "%B %-d, %Y" }}</small>-->
+                  <small>{{ mypost.date | date: "%B %-d, %Y" }}</small>
                 </a>
               </h3>
             </li>
@@ -69,9 +69,11 @@ layout: postdefault
       {% endfor %}
     </ul>
   </div>
-
+-->
   {% if site.disqus %}
     {% include disqus.html %}
   {% endif %}
 
 </div>
+
+

@@ -7,13 +7,13 @@ title: Research
 </p>
 
 <div >
-{% for post in site.categories.projects %}
-<a style = "text-decoration: none" href="{{site.github.url}}{{post.url}}">
+{% for post in site.categories.research %}
+<a style = "text-decoration: none" href="/coming_soon.html">
 	<figure>
 	<img src = {{site.github.url}}/images/{{post.image.feature}} alt= "image">
          <figcaption>
-		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-	</figcaption>  	 
+	   {{post.caption}}
+         </figcaption>  	 
 	</figure>
    </a>
 
