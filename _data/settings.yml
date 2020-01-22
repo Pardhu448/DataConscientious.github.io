@@ -23,7 +23,7 @@ servicesslide:
 
 homegriditems:
 - {title: 'Projects', file: 'projects.html', mintitle: 'On Github', prose: 'Our open source and independent projects.'}
-- {title: 'Testimonials', file: 'testimonials.html', mintitle: 'From clients', prose: 'Comprehensive feedback on past projects.'}
+  #- {title: 'Testimonials', file: 'testimonials.html', mintitle: 'From clients', prose: 'Comprehensive feedback on past projects.'}
 - {title : 'Research', file: 'research.html', mintitle: 'Using open data', prose: 'Our insightful research on different social issues.'}
 - {title : 'Blog', file: 'blog.html', mintitle: 'Opinion', prose: 'Interesting stories from people we admire and follow.'}
 

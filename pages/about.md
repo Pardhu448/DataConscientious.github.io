@@ -3,9 +3,9 @@ layout: page
 title: About
 ---
 
- We are a team of professionals with common interests and goals. Currently working on a product prototype and also on independent projects. We take up projects individually or as a team in the fields of Statistical modelling, ML system design and Digital Marketing Design.
+ We are a team of independent professionals with common interests and goals. Currently working in the field of local government finances. We take up projects individually or as a team in social sector involving statistical modelling, data visualisation, data documentation, data based marketing  and data intensive software system design.
  
-  We also take up part-time or freelance projects in these fields and conduct training modules in related topics.
+ We also take up part-time or freelance projects in these fields and conduct training modules in related topics.
 
 ### Team
 
